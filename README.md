@@ -2,5 +2,5 @@
 
 Páginas públicas de la app OAuth `navemisterio-github`:
 
-- Inicio: https://databeamcl.github.io/navemisterio-legal/
-- Política de privacidad: https://databeamcl.github.io/navemisterio-legal/privacidad.html
+- Inicio: https://alvarockcl.github.io/navemisterio-legal/
+- Política de privacidad: https://alvarockcl.github.io/navemisterio-legal/privacidad.html
