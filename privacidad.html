@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad – navemisterio-github</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6;
+         max-width: 760px; margin: 2rem auto; padding: 0 1.25rem; color: #1f2328; background: #fff; }
+  h1 { font-size: 1.8rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  .fecha { color: #59636e; margin-top: 0; }
+  a { color: #0969da; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6edf3; background: #0d1117; }
+    .fecha { color: #9198a1; }
+    a { color: #4493f8; }
+  }
+</style>
+</head>
+<body>
+<h1>Política de privacidad</h1>
+<p class="fecha">Aplicación: <strong>navemisterio-github</strong> · Última actualización: 24 de noviembre de 2026</p>
+
+<h2>1. Qué es esta aplicación</h2>
+<p><strong>navemisterio-github</strong> es una herramienta interna que usa el propietario del canal de YouTube
+<em>La Nave del Misterio</em> (navemisterio) para administrar su propio canal de forma automatizada desde
+un repositorio privado de GitHub. No es un servicio público y no la usan terceros.</p>
+
+<h2>2. Qué datos se usan</h2>
+<p>Al autorizar la aplicación mediante Google OAuth, se accede a la cuenta de YouTube del propietario con los permisos:</p>
+<ul>
+  <li><code>youtube.upload</code>: subir videos al canal.</li>
+  <li><code>youtube</code>: editar título, descripción, etiquetas, privacidad, miniaturas y listas de reproducción
+      de los videos del canal, y leer estadísticas públicas del canal (suscriptores, vistas, me gusta y comentarios).</li>
+</ul>
+<p>La aplicación no accede a datos de otros usuarios, no lee mensajes ni comentarios privados y no recopila
+información de los espectadores del canal.</p>
+
+<h2>3. Para qué se usan</h2>
+<ul>
+  <li>Publicar y programar videos del propio canal.</li>
+  <li>Mantener actualizada la metadata de esos videos.</li>
+  <li>Generar reportes periódicos de estadísticas del canal para uso interno.</li>
+</ul>
+
+<h2>4. Almacenamiento y seguridad</h2>
+<p>Las credenciales de acceso (token de actualización de OAuth) se guardan cifradas como <em>secrets</em> de
+GitHub Actions y solo se usan durante la ejecución de los procesos automatizados. Los identificadores de los videos
+y los reportes de estadísticas se guardan en un repositorio privado de GitHub.</p>
+
+<h2>5. Compartir con terceros</h2>
+<p>Los datos no se venden, no se comparten con terceros y no se usan con fines publicitarios. Solo intervienen
+Google (YouTube API Services) y GitHub como proveedores de infraestructura.</p>
+<p>El uso que hace esta aplicación de la información recibida de las APIs de Google cumple con la
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los
+servicios de API de Google</a>, incluidos los requisitos de Uso Limitado.</p>
+
+<h2>6. Servicios de YouTube y Google</h2>
+<p>Esta aplicación usa los servicios de API de YouTube. Al usarla se aplican los
+<a href="https://www.youtube.com/t/terms">Términos de servicio de YouTube</a> y la
+<a href="https://policies.google.com/privacy">Política de privacidad de Google</a>.</p>
+
+<h2>7. Cómo revocar el acceso</h2>
+<p>El acceso puede revocarse en cualquier momento desde
+<a href="https://myaccount.google.com/permissions">la configuración de seguridad de tu cuenta de Google</a>.
+Al revocarlo, la aplicación deja de poder acceder al canal de inmediato.</p>
+
+<h2>8. Contacto</h2>
+<p>Para consultas sobre esta política: abre un issue en <a href="https://github.com/databeamcl/navemisterio-legal/issues">github.com/databeamcl/navemisterio-legal</a></p>
+</body>
+</html>
